@@ -44,5 +44,5 @@ function desencriptar(stringDesencriptado) {
 function copiar() {
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value);
-    alert("Copied")
+    alert("Copiado")
 }
