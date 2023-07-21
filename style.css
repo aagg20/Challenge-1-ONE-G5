@@ -1,5 +1,5 @@
-background{
-    color: azure;
+*{
+    color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -9,8 +9,7 @@ background{
 .logo{
     padding-top: 10px;
     margin-left: 10px;
-    width: 9%;
-    ;
+    width: 5%;
 }
 
 main{
@@ -19,11 +18,14 @@ main{
     margin-left: 80px;
 
 }
-
-.textarea {
+textarea{
+    color: azure;
+    background-color: grey;
+    border-radius: 25px;
     border: none;
-    color: blue;
-    margin-top: 90px;
+    margin-top: 30px;
+}
+.textarea {
     text-transform: lowercase;
 }
 
@@ -35,16 +37,9 @@ main{
 }
 
 .mensaje {
-    background: bisque;
-    background-image: url("./imagenes/encriptar.png");
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 25px;
-    color: white;
     margin-left: 98px;
-    margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .mensaje:focus {
@@ -85,19 +80,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 482px;
-    position: absolute;
-    width: 335px;
-}
-
-.btn-pegar {
-    border: 1px solid red;
-    border-radius: 24px;
-    color: black;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 468px;
-    margin-top: 482px;
+    /* margin-top: 482px; */
     position: absolute;
     width: 335px;
 }

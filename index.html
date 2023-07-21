@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Challenge Encriptador</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,30 +18,28 @@
         <img class="logo" src="./imagenes/Vector.png" alt="logo Alura">
         <img class="logo" src="./imagenes/oneLogo.png" alt="logo Oracle Next Education">
     </header>
-
+    <div>
+        <h5 class="informacion">Por favor, solo puedes usar letras en minusculas y no acentos. Gracias</h5>
+    </div>
     <main>
         <section>
             <textarea class="textarea" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
-            <div>
-                <h5 class="informacion">Por favor, solo puedes usar letras en minusculas y no acentos. Gracias</h5>
-            </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
                 <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
         <section>
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
-            <div>
-                <button class="btn-copiar">Copiar</button>
-                <button class="btn-pegar">Pegar</button>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <div class="botones">
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
             </div>
         </section>
     </main>
 
 
     <footer>
-
+        &copy2023
     </footer>
     <script src="./script.js"></script>
 </body>
